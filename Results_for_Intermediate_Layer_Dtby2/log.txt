@@ -1,0 +1,63 @@
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::ckpt] 'Iterations_50k_alpha_08_beta_05/ckpt_0.000439_50000.pt'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::input_root] './data/examples'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::output_root] './data/results'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::dataset_root] './data'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::dataset] 'PUNet'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::tag] ''
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::resolution] '50000_poisson'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::noise] '0.01'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::device] 'cuda'
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::seed] 2020
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::ld_step_size] None
+[2022-01-27 12:41:59,737::test::INFO] [ARGS::ld_step_decay] 0.95
+[2022-01-27 12:41:59,738::test::INFO] [ARGS::ld_num_steps] 30
+[2022-01-27 12:41:59,738::test::INFO] [ARGS::seed_k] 3
+[2022-01-27 12:41:59,738::test::INFO] [ARGS::niters] 1
+[2022-01-27 12:41:59,738::test::INFO] [ARGS::denoise_knn] 4
+[2022-01-27 12:42:01,881::test::INFO] ld_step_size = 0.20000000
+[2022-01-27 12:42:02,058::test::INFO] elephant
+[2022-01-27 12:42:21,180::test::INFO] coverrear_Lp
+[2022-01-27 12:42:39,972::test::INFO] fandisk
+[2022-01-27 12:42:58,968::test::INFO] Icosahedron
+[2022-01-27 12:43:18,084::test::INFO] casting
+[2022-01-27 12:43:37,437::test::INFO] cow
+[2022-01-27 12:43:57,931::test::INFO] pig
+[2022-01-27 12:44:18,869::test::INFO] star
+[2022-01-27 12:44:39,951::test::INFO] chair
+[2022-01-27 12:45:01,279::test::INFO] moai
+[2022-01-27 12:45:22,569::test::INFO] genus3
+[2022-01-27 12:45:43,916::test::INFO] elk
+[2022-01-27 12:46:05,285::test::INFO] eight
+[2022-01-27 12:46:26,746::test::INFO] sculpt
+[2022-01-27 12:46:48,204::test::INFO] quadric
+[2022-01-27 12:47:09,781::test::INFO] duck
+[2022-01-27 12:47:31,283::test::INFO] kitten
+[2022-01-27 12:47:52,893::test::INFO] Octahedron
+[2022-01-27 12:48:14,427::test::INFO] camel
+[2022-01-27 12:48:36,118::test::INFO] horse
+[2022-01-27 12:49:07,304::test::INFO] 
+                cd_sph       p2f
+elephant      0.000174  0.000113
+coverrear_Lp  0.000183  0.000089
+fandisk       0.000158  0.000087
+Icosahedron   0.000196  0.000080
+casting       0.000227  0.000119
+cow           0.000190  0.000120
+pig           0.000200  0.000116
+star          0.000191  0.000089
+chair         0.000192  0.000121
+moai          0.000187  0.000105
+genus3        0.000179  0.000095
+elk           0.000214  0.000109
+eight         0.000174  0.000103
+sculpt        0.000224  0.000073
+quadric       0.000181  0.000115
+duck          0.000201  0.000097
+kitten        0.000177  0.000101
+Octahedron    0.000183  0.000083
+camel         0.000190  0.000125
+horse         0.000175  0.000120
+[2022-01-27 12:49:07,304::test::INFO] 
+Mean
+cd_sph	0.000189824567
+p2f	0.000103038586
