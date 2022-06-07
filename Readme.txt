@@ -1,6 +1,3 @@
-# Paper Title : Finding Intermediate Generators using Forward Iterates and Applications
-# Paper ID: 2177
-
 ## The code base was inherited from https://github.com/luost26/score-denoise, the scripts where changes were made have been included (finetune.py, test.py)
 
 ## The script display.py can be imported to convert pointclouds from xyz format to png images.
